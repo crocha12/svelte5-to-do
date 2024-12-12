@@ -1,38 +1,75 @@
-# sv
+# svelte5-to-do
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+**svelte5-to-do** é uma aplicação desenvolvida em **Svelte** com o objetivo de explorar e aprender as novas funcionalidades e mudanças da versão mais recente do framework. O projeto consiste em um **gerenciador de tarefas** simples e funcional, que permite criar, editar, apagar e concluir tarefas.
 
-## Creating a project
+A aplicação possui duas colunas:
+- **Tarefas a fazer**
+- **Tarefas concluídas**
 
-If you're seeing this, you've probably already done this step. Congrats!
+Além disso, é responsiva e guarda os dados das tarefas no **localStorage**, garantindo que as tarefas persistam mesmo após atualizar ou fechar o navegador.
+
+---
+
+## Funcionalidades
+
+- Criar novas tarefas.
+- Editar tarefas existentes.
+- Apagar tarefas.
+- Marcar tarefas como concluídas.
+- Visualização separada entre "Tarefas a fazer" e "Tarefas concluídas".
+- Responsividade para diferentes dispositivos.
+- Persistência de dados com localStorage.
+
+---
+
+## Tecnologias utilizadas
+
+- [Svelte](https://svelte.dev/) - Framework para desenvolvimento frontend.
+- HTML5 e CSS3 - Estruturação e estilo da aplicação.
+- JavaScript - Lógica de interação e funcionalidades.
+- localStorage - Persistência de dados no navegador.
+
+---
+
+## Instalação
+
+Para instalar as dependências do projeto, siga os passos abaixo:
 
 ```bash
-# create a new project in the current directory
-npx sv create
-
-# create a new project in my-app
-npx sv create my-app
+npm install
 ```
 
-## Developing
+---
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## Como rodar o projeto
+
+Para rodar a aplicação em ambiente de desenvolvimento, utilize o comando:
 
 ```bash
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
 ```
 
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
+Acesse a aplicação em seu navegador através do endereço:
+```
+http://localhost:5173
 ```
 
-You can preview the production build with `npm run preview`.
+---
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+## Exemplo de Uso
+
+1. Abra o projeto localmente usando `npm run dev`.
+2. Crie novas tarefas.
+3. Clique no botão para adicionar a tarefa.
+4. Marque as tarefas concluídas clicando no checkbox.
+5. Edite ou apague tarefas conforme necessário.
+6. A aplicação salva automaticamente no **localStorage**.
+
+---
+
+## Autor
+
+Desenvolvido por **Camilo Rocha** como parte de um estudo sobre as novidades do Svelte 5.
+
+
+© 2024 Camilo Rocha
