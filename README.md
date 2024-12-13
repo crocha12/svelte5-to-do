@@ -67,9 +67,15 @@ http://localhost:5173
 
 ---
 
+## Deploy
+
+Você pode visualizar a aplicação através do link:
+[https://svelte5-to-do-camilo.vercel.app/](https://svelte5-to-do-camilo.vercel.app/)
+
+---
+
 ## Autor
 
 Desenvolvido por **Camilo Rocha** como parte de um estudo sobre as novidades do Svelte 5.
-
 
 © 2024 Camilo Rocha
